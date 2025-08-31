@@ -1,6 +1,6 @@
 # Pronóstico de Ventas Semanales para Tiendas Walmart
 
-![Walmart Store Banner](URL_A_UNA_IMAGEN_DE_BANNER_QUE_CREES) <!-- Opcional: crea un banner en Canva -->
+![Walmart Store Banner](images/Banner.png)
 
 ## 📜 Resumen del Proyecto
 
@@ -8,7 +8,6 @@ Este proyecto presenta un análisis de series temporales y un modelo de pronóst
 
 El objetivo es demostrar un flujo de trabajo completo de análisis de datos, desde la limpieza y la ingeniería de características hasta el modelado y la evaluación crítica de los resultados, simulando un problema de negocio real y de alto impacto como es la previsión de la demanda en el sector retail.
 
-**Repositorio de GitHub:** [Enlace a tu Repositorio](URL_A_TU_REPOSITORIO)
 
 ---
 
@@ -42,7 +41,7 @@ El análisis se centró en la **Tienda 1, Departamento 1** como caso de estudio 
 ### 1. Análisis Exploratorio de Datos (EDA)
 El EDA reveló una **fuerte estacionalidad anual** en las ventas, con picos pronunciados y predecibles durante la temporada navideña y otros festivos clave como el Super Bowl. La tendencia general de las ventas se mostró relativamente estable a lo largo del periodo de estudio.
 
-![Descomposición de la Serie Temporal](URL_A_LA_IMAGEN_DE_DESCOMPOSICION) <!-- Sube la captura de pantalla de la descomposición a tu repo -->
+![Descomposición de la Serie Temporal](images/descomposicion_de_datos.png)
 
 ### 2. Modelado y Optimización
 Se implementaron y compararon tres modelos de pronóstico:
@@ -58,8 +57,7 @@ El modelo **SARIMAX optimizado** demostró ser el más preciso. La inclusión de
 | Holt-Winters (Base)         | $64,912.64            |
 | SARIMAX Optimizado          | $41,233.59            |
 
-![Gráfico Comparativo de Pronósticos](URL_A_LA_IMAGEN_DEL_GRAFICO_FINAL) <!-- Sube la captura del gráfico final -->
-
+![Gráfico Comparativo de Pronósticos](images/Comparacion_final_de_modelos_de_pronostico.png)
 ---
 
 ## 📄 Conclusiones y Limitaciones
@@ -79,3 +77,4 @@ Aunque el modelo optimizado representó una mejora significativa, un RMSE de ~$4
 *   **/[forecast_walmart_store_sales].ipynb**: Contiene el código completo del análisis, desde la limpieza de datos hasta la evaluación final de los modelos.
 *   **/data/**: Carpeta con los archivos `.csv` originales del dataset.
 *   **/images/**: Carpeta con las imágenes y gráficos obtenidos en este proyecto.
+
