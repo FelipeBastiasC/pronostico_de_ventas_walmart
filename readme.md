@@ -74,7 +74,8 @@ Aunque el modelo optimizado representó una mejora significativa, un RMSE de ~$4
 
 ## 🚀 Cómo Explorar este Repositorio
 
-*   **/[forecast_walmart_store_sales].ipynb**: Contiene el código completo del análisis, desde la limpieza de datos hasta la evaluación final de los modelos.
+*   **/forecast_walmart_store_sales.ipynb**: Contiene el código completo del análisis, desde la limpieza de datos hasta la evaluación final de los modelos.
 *   **/data/**: Carpeta con los archivos `.csv` originales del dataset.
 *   **/images/**: Carpeta con las imágenes y gráficos obtenidos en este proyecto.
+
 
